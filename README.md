@@ -116,3 +116,12 @@ No build step, no dependencies, nothing leaves your machine.
   any LLM. The environment (filesystem, inbox, web pages, vault, email
   sending) is fake by design: this is a detection prototype, and nothing
   here touches real credentials, real files or the real network.
+
+## Hack Sprint pitch materials
+
+In [`pitch/`](pitch/): the 6-slide idea deck
+(`Tripwires-HackSprint-Deck.pptx`), the 3-minute demo script and
+hard-question FAQ (`DEMO-SCRIPT.md`), and a 53-second backup demo
+video (`tripwires-demo-60s.mp4`) showing the benign run (agent stays
+ACTIVE, zero alerts) followed by the injection attack (agent FROZEN,
+exfiltration blocked).
